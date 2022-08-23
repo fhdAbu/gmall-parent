@@ -1,0 +1,17 @@
+#写微服务当前自己的配置
+server:
+  port: 7000
+#数据配置好
+spring:
+  zipkin:  #链路追踪
+    base-url: http://192.168.200.100.9411/
+    sender:
+      type: web
+  datasource:
+    # useSSL=false:使用非安全连接,因为我们现在数据库都没有安全证书,
+    url: jdbc:mysql://192.168.200.100:3306/gmall_product?useSSL=false&characterEncoding=utf-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+
+
