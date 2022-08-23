@@ -24,7 +24,7 @@ public class BaseCategory2ServiceImpl extends ServiceImpl<BaseCategory2Mapper, B
     BaseCategory2Mapper baseCategory2Mapper;
 
     /**
-     * 查询1级分类下边所有的2级分类   改个东西
+     * 查询1级分类下边所有的2级分类
      * @param c1id
      * @return
      */
