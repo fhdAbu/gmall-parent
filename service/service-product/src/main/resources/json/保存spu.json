@@ -1,0 +1,83 @@
+{
+  "id": null,
+  "spuName": "AppleiPhone 13",
+  "description": "品牌： Apple\n商品名称：AppleiPhone 13商品编号：10041317839536商品毛重：200.00gCPU型号：Apple A系列运行内存：其他(iPhone)机身颜色：粉色三防标准：IP68充电功率：以官网信息为准支持IPv6：支持IPv6屏幕材质：OLED直屏后摄主像素：1200万像素特征特质：OLED直屏，无线充电，NFC，5G屏幕分辨率：FHD+风格：商务，科技，苹果风机身内存：128GB",
+  "category3Id": 61,
+  "spuImageList": [
+    {
+      "imgName": "5.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/07fb4d3ae7cc4d259d9753440b841cf6_5.png"
+    },
+    {
+      "imgName": "2.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/70af6f8b0ff24304be6888f9d0cfda0c_2.png"
+    },
+    {
+      "imgName": "4.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/7bd48a09d102419ea954594cdfa4b1d1_4.png"
+    },
+    {
+      "imgName": "3.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/0a6d2f13aa684fefa4b693247508d5f0_3.png"
+    },
+    {
+      "imgName": "1.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/499bd2f624b8459bb6b07917a7295b1f_1.png"
+    },
+    {
+      "imgName": "2.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/d179a412cabf4eef9605110c361c98d1_2.png"
+    },
+    {
+      "imgName": "1.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/8cc51b74b95a4637bd77b2e61eef83ce_1.png"
+    },
+    {
+      "imgName": "5.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/21275afb8d13424ab8e2ab66fb01adfb_5.png"
+    },
+    {
+      "imgName": "4.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/5c00f412053f47d8a7e4a0e7afc8c977_4.png"
+    },
+    {
+      "imgName": "3.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-26/61720fcc93c449aaa86b40a1054b436e_3.png"
+    }
+  ],
+  "spuSaleAttrList": [
+    {
+      "baseSaleAttrId": "1",
+      "saleAttrName": "选择颜色",
+      "spuSaleAttrValueList": [
+        {
+          "baseSaleAttrId": "1",
+          "saleAttrValueName": "粉色"
+        },
+        {
+          "baseSaleAttrId": "1",
+          "saleAttrValueName": "蓝色"
+        }
+      ]
+    },
+    {
+      "baseSaleAttrId": "3",
+      "saleAttrName": "选择套装",
+      "spuSaleAttrValueList": [
+        {
+          "baseSaleAttrId": "3",
+          "saleAttrValueName": "168G"
+        },
+        {
+          "baseSaleAttrId": "3",
+          "saleAttrValueName": "256"
+        },
+        {
+          "baseSaleAttrId": "3",
+          "saleAttrValueName": "512G"
+        }
+      ]
+    }
+  ],
+  "tmId": 25
+}

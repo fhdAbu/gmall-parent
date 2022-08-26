@@ -14,4 +14,14 @@ spring:
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
 
+#自定义配置
+app:
+  minio:
+    endpoint: http://192.168.200.100:9000
+    ak: admin
+    sk: admin123456
+    bucketName: gmall
 
+    #以后加配置,配置文件中直接加,别忘了属性类加个属性
+    #以前的代码一个不改,以后的代码都能用
+    # 设计模式 :对新增开放  , 对修改关闭 [开闭原则]
