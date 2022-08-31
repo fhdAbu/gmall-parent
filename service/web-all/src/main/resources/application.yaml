@@ -1,3 +1,15 @@
 #写微服务当前自己的配置
 server:
   port: 8000
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+  zipkin:
+    sender:
+      type: web
+    base-url: http://192.168.200.100:9411
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html

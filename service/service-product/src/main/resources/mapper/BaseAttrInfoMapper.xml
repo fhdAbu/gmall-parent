@@ -42,5 +42,16 @@
         WHERE (bai.category_id=#{c1id} AND bai.category_level=1)
         OR (bai.category_id=#{c2id} AND bai.category_level=2)
         OR(bai.category_id=#{c3id} AND bai.category_level=3)
+        <!--<where>
+            <if test="c1Id != o">
+                (bai.category_id=#{c1id} AND bai.category_level=1)
+            </if>
+            <if test="c2Id != o">
+                OR (bai.category_id=#{c2id} AND bai.category_level=2)
+            </if>
+            <if test="c3Id != o">
+                OR(bai.category_id=#{c3id} AND bai.category_level=3)
+            </if>
+        </where>-->
     </select>
 </mapper>

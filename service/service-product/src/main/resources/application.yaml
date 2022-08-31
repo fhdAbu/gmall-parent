@@ -4,7 +4,7 @@ server:
 #数据配置好
 spring:
   zipkin:  #链路追踪
-    base-url: http://192.168.200.100.9411/
+    base-url: http://192.168.200.100:9411/
     sender:
       type: web
   datasource:
@@ -25,3 +25,8 @@ app:
     #以后加配置,配置文件中直接加,别忘了属性类加个属性
     #以前的代码一个不改,以后的代码都能用
     # 设计模式 :对新增开放  , 对修改关闭 [开闭原则]
+  thread-pool:
+    keep-alive-time: 300
+    core: 4
+    max: 8
+    queue-size: 2000

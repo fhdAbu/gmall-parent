@@ -1,5 +1,6 @@
 package com.atguigu.gmall.product;
 
+import com.atguigu.gmall.common.annotation.EnableThreadPool;
 import com.atguigu.gmall.common.config.Swagger2Config;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -19,6 +20,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 //@SpringBootApplication
 //@EnableCircuitBreaker
 //@EnableDiscoveryClient
+@EnableThreadPool
 @EnableTransactionManagement  //开启基于注解的事务
 @SpringCloudApplication
 @Import(Swagger2Config.class)
