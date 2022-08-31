@@ -1,0 +1,55 @@
+#server:
+#  port: 9999
+#
+#spring:
+#  autoconfigure:
+#    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+#  redis:
+#    host: 192.168.200.100
+#    port: 6379
+#    password: "fhd123456"
+#    timeout: 5000
+#    database: 0
+#  zipkin:
+#    base-url: http://192.168.200.100:9411/
+#    sender:
+#      type: web
+#
+#app:
+#  thread-pool:
+#    core: 4
+#    max: 8
+#    queueSize: 20
+#    keep-alive-time: 300 #以秒为单位
+#management:
+#  endpoint:
+#    web:
+#      exposure:
+#        include: "*"
+
+server:
+  port: 9000
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  redis:
+    host: 192.168.200.100
+    password: fhd123456
+  zipkin:
+    base-url: http://192.168.200.100:9411/
+    sender:
+      type: web
+app:
+  thread-pool:
+    core: 4
+    max: 8
+    queue-size: 2000
+    keep-alive-time: 300
+
+
+#暴露所有监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
